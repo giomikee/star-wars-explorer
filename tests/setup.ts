@@ -3,6 +3,8 @@ import { config } from '@vue/test-utils'
 import ResizeObserverPolyfill from 'resize-observer-polyfill'
 import vuetify from '../src/plugins/vuetify'
 
+process.env.TZ = 'utc'
+
 config.global.plugins = [vuetify, createTestingPinia()]
 config.global.stubs = { VContainer: false, VApp: false }
 

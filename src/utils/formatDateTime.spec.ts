@@ -4,7 +4,7 @@ import { formatDateTime } from './formatDateTime'
 describe.each([
   {
     dateTime: '2014-12-20T21:17:56.891000Z',
-    expected: 'December 20, 2014 at 10:17 PM',
+    expected: 'December 20, 2014 at 9:17 PM',
   },
   {
     dateTime: '',
