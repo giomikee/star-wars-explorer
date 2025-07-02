@@ -53,7 +53,9 @@ jobs:
           path: ./node_modules
   
       - name: Use dependencies to test
-        run: npm run test && npm run lint:validate
+        run: npm install && npm run test
+      - name: Use dependencies to validate lint
+        run: npm install && npm run lint:validate
   
   build:
     needs: install
@@ -78,4 +80,4 @@ jobs:
           path: ./node_modules
   
       - name: Use dependencies to build
-        run: npm run build-only
+        run: npm install && npm run build-only
