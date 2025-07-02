@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given App component > When component is rendered > Then it should match component snapshot 1`] = `
+<div
+  class="v-application v-theme--dark v-layout v-layout--full-height v-locale--is-ltr"
+>
+  <div
+    class="v-application__wrap"
+  >
+    
+    <router-view />
+    
+  </div>
+</div>
+`;

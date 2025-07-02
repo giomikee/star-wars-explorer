@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given Homepage component > When component is rendered > Then it should match the snapshot 1`] = `<span />`;

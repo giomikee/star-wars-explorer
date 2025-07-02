@@ -1,0 +1,628 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given TableWrapper component > When component is rendered > And isLoading is false > Then it should match snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <div
+    class="v-skeleton-loader v-theme--dark"
+  >
+    
+    
+    
+    <v-pagination-stub
+      aria-label="$vuetify.pagination.ariaLabel.root"
+      border="false"
+      class="w-100"
+      currentpagearialabel="$vuetify.pagination.ariaLabel.currentPage"
+      density="default"
+      disabled="false"
+      ellipsis="..."
+      firstarialabel="$vuetify.pagination.ariaLabel.first"
+      firsticon="$first"
+      lastarialabel="$vuetify.pagination.ariaLabel.last"
+      lasticon="$last"
+      length="2"
+      modelvalue="1"
+      nextarialabel="$vuetify.pagination.ariaLabel.next"
+      nexticon="$next"
+      pagearialabel="$vuetify.pagination.ariaLabel.page"
+      previcon="$prev"
+      previousarialabel="$vuetify.pagination.ariaLabel.previous"
+      showfirstlastpage="false"
+      size="default"
+      start="1"
+      tag="nav"
+      tile="false"
+      variant="text"
+    />
+    
+  </div>
+</div>
+`;
+
+exports[`Given TableWrapper component > When component is rendered > And isLoading is true > Then it should match snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <div
+    aria-label="Loading..."
+    aria-live="polite"
+    class="v-skeleton-loader v-theme--dark"
+    role="alert"
+  >
+    
+    <div
+      class="v-skeleton-loader__bone v-skeleton-loader__table"
+    >
+      
+      
+      <div
+        class="v-skeleton-loader__bone v-skeleton-loader__table-heading"
+      >
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__chip"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__text"
+        >
+          
+          
+        </div>
+        
+        
+      </div>
+      
+      
+      <div
+        class="v-skeleton-loader__bone v-skeleton-loader__table-thead"
+      >
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__heading"
+        >
+          
+          
+        </div>
+        
+        
+      </div>
+      
+      
+      <div
+        class="v-skeleton-loader__bone v-skeleton-loader__table-tbody"
+      >
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__table-row-divider"
+        >
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__table-row"
+          >
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+            <div
+              class="v-skeleton-loader__bone v-skeleton-loader__text"
+            >
+              
+              
+            </div>
+            
+            
+          </div>
+          
+          
+          <div
+            class="v-skeleton-loader__bone v-skeleton-loader__divider"
+          >
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+      </div>
+      
+      
+      <div
+        class="v-skeleton-loader__bone v-skeleton-loader__table-tfoot"
+      >
+        
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__text"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__text"
+        >
+          
+          
+        </div>
+        
+        
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__avatar"
+        >
+          
+          
+        </div>
+        
+        
+        <div
+          class="v-skeleton-loader__bone v-skeleton-loader__avatar"
+        >
+          
+          
+        </div>
+        
+        
+        
+      </div>
+      
+      
+    </div>
+    
+  </div>
+</div>
+`;

@@ -1,0 +1,78 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given SortButtons component > When component is rendered > And isLoading false > Then it should match the snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <div
+    class="d-flex justify-end ga-2"
+  >
+    <span
+      class="align-self-center"
+    >
+      Sort by:
+    </span>
+    <div
+      class="v-btn-group v-btn-group--divided v-theme--dark v-btn-group--density-default v-btn-toggle"
+    >
+      
+      <v-btn-stub
+        aria-label="Sort by name ascending/descending"
+        block="false"
+        border="false"
+        density="default"
+        disabled="false"
+        exact="false"
+        flat="false"
+        icon="false"
+        loading="false"
+        replace="false"
+        ripple="true"
+        size="default"
+        slim="false"
+        stacked="false"
+        symbol="Symbol(vuetify:v-btn-toggle)"
+        tag="button"
+        tile="false"
+        value="name"
+        variant="elevated"
+      />
+      <v-btn-stub
+        aria-label="Sort by date ascending/descending"
+        block="false"
+        border="false"
+        density="default"
+        disabled="false"
+        exact="false"
+        flat="false"
+        icon="false"
+        loading="false"
+        replace="false"
+        ripple="true"
+        size="default"
+        slim="false"
+        stacked="false"
+        symbol="Symbol(vuetify:v-btn-toggle)"
+        tag="button"
+        tile="false"
+        value="date"
+        variant="elevated"
+      />
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Given SortButtons component > When component is rendered > And isLoading true > Then it should match the snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <v-skeleton-loader-stub
+    boilerplate="false"
+    loading="false"
+    loadingtext="$vuetify.loading"
+    type="actions"
+  />
+</div>
+`;

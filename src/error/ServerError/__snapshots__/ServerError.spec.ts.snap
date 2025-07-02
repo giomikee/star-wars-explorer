@@ -1,0 +1,23 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given ServerError component > When component is rendered > Then it should match component snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <v-icon-stub
+    class="text-h1 w-100"
+    color="error"
+    disabled="false"
+    end="false"
+    icon="mdi-server-off"
+    size="default"
+    start="false"
+    tag="i"
+  />
+  <h2
+    class="text-center"
+  >
+    A technical issue has occurred. Please try again later.
+  </h2>
+</div>
+`;

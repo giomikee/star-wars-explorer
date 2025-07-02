@@ -1,0 +1,55 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given SearchNameInput component > When component is rendered > And isLoading prop is false > Then it should match the snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <v-text-field-stub
+    active="false"
+    aria-label="Search name input"
+    autofocus="false"
+    clearable="true"
+    clearicon="$clear"
+    counter="false"
+    density="default"
+    direction="horizontal"
+    dirty="false"
+    error="false"
+    errormessages=""
+    flat="false"
+    focused="false"
+    glow="false"
+    hidedetails="false"
+    hidespinbuttons="false"
+    iconcolor="false"
+    label="Search name"
+    loading="false"
+    maxerrors="1"
+    messages=""
+    modelvalue=""
+    persistentclear="true"
+    persistentcounter="false"
+    persistenthint="false"
+    persistentplaceholder="false"
+    reverse="false"
+    rules=""
+    singleline="false"
+    tile="false"
+    type="text"
+    variant="filled"
+  />
+</div>
+`;
+
+exports[`Given SearchNameInput component > When component is rendered > And isLoading prop is true > Then it should match the snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr"
+>
+  <v-skeleton-loader-stub
+    boilerplate="false"
+    loading="false"
+    loadingtext="$vuetify.loading"
+    type="text"
+  />
+</div>
+`;

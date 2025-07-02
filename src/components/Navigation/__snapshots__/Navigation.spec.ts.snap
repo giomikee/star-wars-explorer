@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Given Navigation component > When component is rendered > Then it should match component snapshot 1`] = `
+<div
+  class="v-container v-locale--is-ltr d-flex justify-center"
+>
+  <div
+    class="d-flex flex-md-row flex-column ga-2"
+  >
+    <v-btn-stub
+      aria-label="Search for planets"
+      block="false"
+      border="false"
+      density="default"
+      disabled="false"
+      exact="false"
+      flat="false"
+      icon="false"
+      loading="false"
+      prependicon="mdi-earth"
+      replace="false"
+      ripple="true"
+      size="large"
+      slim="false"
+      stacked="false"
+      symbol="Symbol(vuetify:v-btn-toggle)"
+      tag="button"
+      tile="false"
+      variant="elevated"
+    />
+    <v-btn-stub
+      aria-label="Search for people"
+      block="false"
+      border="false"
+      density="default"
+      disabled="false"
+      exact="false"
+      flat="false"
+      icon="false"
+      loading="false"
+      prependicon="mdi-account-multiple"
+      replace="false"
+      ripple="true"
+      size="large"
+      slim="false"
+      stacked="false"
+      symbol="Symbol(vuetify:v-btn-toggle)"
+      tag="button"
+      tile="false"
+      variant="elevated"
+    />
+  </div>
+</div>
+`;
