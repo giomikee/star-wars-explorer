@@ -13,7 +13,8 @@
     "lint:validate": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "postinstall": "git config core.hooksPath .husky"
   },
   "dependencies": {
     "@fontsource/roboto": "5.2.5",
