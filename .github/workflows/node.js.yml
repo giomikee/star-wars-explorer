@@ -25,11 +25,6 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
-      - name: Upload node_modules artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: node-modules
-          path: node_modules
   test:
     needs: install
     runs-on: ubuntu-latest
@@ -46,15 +41,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - name: Download node_modules artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: node-modules
-          path: ./node_modules
-  
-      - name: Use dependencies to test
+      
+      - name: Run tests
         run: npm install && npm run test
-      - name: Use dependencies to validate lint
+      - name: Validate lint
         run: npm install && npm run lint:validate
   
   build:
@@ -73,11 +63,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      - name: Download node_modules artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: node-modules
-          path: ./node_modules
   
-      - name: Use dependencies to build
+      - name: build project
         run: npm install && npm run build-only
