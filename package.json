@@ -4,7 +4,6 @@
   "type": "module",
   "version": "0.0.0",
   "scripts": {
-    "prepare": "husky install",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
