@@ -1,6 +1,5 @@
 import type { People } from '../interfaces'
 import { defineStore } from 'pinia'
-import { SWAPI_ENDPOINTS } from '../constants'
 import { filterItemsByName, sortItemsByDateCreated, sortItemsByName } from '../utils'
 
 export const usePeopleStore = defineStore('people', {
@@ -38,9 +37,6 @@ export const usePeopleStore = defineStore('people', {
     },
     getPeopleToDisplay (): People[] {
       return this.isSorted ? this.filteredSortedPeople : this.filteredPeople
-    },
-    findPeople (id: string): People | undefined {
-      return this.people.find(({ url }) => url === `${SWAPI_ENDPOINTS.people}/${id}`)
     },
     resetFilters () {
       this.setSearchedName('')

@@ -95,7 +95,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 9, 2014 at 2:50 PM
           </td>
         </tr>
         <tr>
@@ -127,7 +127,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            November 9, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -159,7 +159,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            May 9, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -191,7 +191,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 21, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -223,7 +223,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 6, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -255,7 +255,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            March 9, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -287,7 +287,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            February 9, 2014 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -319,7 +319,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 9, 2011 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -351,7 +351,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 9, 2004 at 1:50 PM
           </td>
         </tr>
         <tr>
@@ -383,7 +383,7 @@ exports[`Given PlanetsTable component > When component is rendered > Then it sho
             200000
           </td>
           <td>
-            December 9, 2014 at 1:50 PM
+            December 9, 2015 at 1:50 PM
           </td>
         </tr>
         

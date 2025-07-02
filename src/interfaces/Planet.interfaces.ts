@@ -11,6 +11,6 @@ export interface Planet extends Item {
   population: string
   residents: string[]
   films: string[]
-  edited: Date
+  edited: string
   url: string
 }

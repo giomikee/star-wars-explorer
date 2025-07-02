@@ -1,6 +1,5 @@
 import type { Planet } from '../interfaces'
 import { defineStore } from 'pinia'
-import { SWAPI_ENDPOINTS } from '../constants'
 import { filterItemsByName, sortItemsByDateCreated, sortItemsByName } from '../utils'
 
 export const usePlanetsStore = defineStore('planets', {
@@ -38,9 +37,6 @@ export const usePlanetsStore = defineStore('planets', {
     },
     getPlanetsToDisplay (): Planet[] {
       return this.isSorted ? this.filteredSortedPlanets : this.filteredPlanets
-    },
-    findPlanet (id: string): Planet | undefined {
-      return this.planets.find(({ url }) => url === `${SWAPI_ENDPOINTS.planets}/${id}`)
     },
     resetFilters () {
       this.setSearchedName('')
