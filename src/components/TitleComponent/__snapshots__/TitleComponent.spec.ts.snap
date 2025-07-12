@@ -6,6 +6,7 @@ exports[`Given TitleComponent component > When component is rendered > Then it s
 >
   <v-img-stub
     absolute="false"
+    alt="Star wars logo"
     cover="false"
     eager="false"
     height="50"
