@@ -10,7 +10,7 @@ import { setupLayouts } from 'virtual:generated-layouts'
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import { routes } from 'vue-router/auto-routes'
 /* eslint-enable */
-import { ERROR_COMPONENTS } from '../constants'
+import { baseUrl, ERROR_COMPONENTS } from '../constants'
 import NotFound from '../error/NotFound/NotFound.vue'
 import ServerError from '../error/ServerError/ServerError.vue'
 
@@ -19,12 +19,12 @@ const router = createRouter({
   routes: setupLayouts([
     ...routes,
     {
-      path: '/error',
+      path: `${baseUrl}error`,
       name: ERROR_COMPONENTS.serverError,
       component: ServerError,
     },
     {
-      path: '/:pathMatch(.*)*',
+      path: `${baseUrl}:pathMatch(.*)*`,
       name: ERROR_COMPONENTS.notFound,
       component: NotFound,
     },

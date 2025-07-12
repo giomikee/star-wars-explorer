@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        (function () {
+            // This ensures you only prepend once
+            var base = '/star-wars-explorer';
+            var path = window.location.pathname;
+            var search = window.location.search || '';
+            var hash = window.location.hash || '';
+
+            // Only redirect if not already inside base
+            if (!path.startsWith(base)) {
+                var newPath = base + path + search + hash;
+                window.location.replace(newPath);
+            } else {
+                window.location.replace(base + search + hash);
+            }
+        })();
+
+    </script>
+</head>
+
+<body>
+    <p>Redirecting...</p>
+</body>
+
+</html>
