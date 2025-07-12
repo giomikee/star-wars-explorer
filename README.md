@@ -4,6 +4,10 @@ Powered by [Swapi](https://swapi.info/) and [Vuetify](https://vuetifyjs.com/). I
 
 > *A long time ago, in a galaxy far, far away...*
 
+See it in action in the project's [Github pages](https://giomikee.github.io/star-wars-explorer/)
+
+Note: Due to Github pages limitation, deeplinks other than the home page ([https://giomikee.github.io/star-wars-explorer/](https://giomikee.github.io/star-wars-explorer/)) will not work for now.
+
 ## Getting started
 
 Install project dependencies
